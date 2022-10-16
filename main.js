@@ -20,13 +20,13 @@ let sums = [sum1, sum2, sum3, sum4_5, sum6];
 total_score = ((quiz1*40)/40) + (((sums[0] + sums[1] + sums[2] + sums[3] + sums[4])*60)/240);
 
 const results = {
-	lab1: [5, 5, 5, 5, 10, 10],
-	lab2: [5, 5, 5, 5, 5, 5, 10],
-	lab3: [5, 10, 10, 15],
-	lab4_5: [10, 5, 5, 5, 5, 8, 10, 10, 10, 0],
-	lab6: [5, 5, 10, 5, 5, 10],
-	quiz1: 38,
-	sums: [sum1, sum2, sum3, sum4_5, sum6],
+	lab1: lab1,
+	lab2: lab2,
+	lab3: lab3,
+	lab4_5: lab4_5,
+	lab6: lab6,
+	quiz1: quiz1,
+	sums: sums,
 	total_score: total_score,
 }
 
